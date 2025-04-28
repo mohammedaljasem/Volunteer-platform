@@ -18,6 +18,6 @@ class MessageRead extends Model
 
     protected $fillable = ['message_id', 'user_id', 'read_at'];
 
-    public $timestamps = false; // ✅ هذا السطر هو المفتاح
+    public $timestamps = false; 
 }
 
